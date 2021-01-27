@@ -1,34 +1,16 @@
 package core;
 
-import delegate.speakingSkill.*;
-import delegate.syntaxSkill.*;
-import delegate.punctuationSkill.*;
+import patterns.decorator.DecoratorDemonstrator;
 
 public class Main {
 
     public static void main(String[] args) {
-        ForeignStudent george = new ForeignStudent("USA", "George Bush");
-        ForeignStudent angela = new ForeignStudent("Germany", "Angela Merkel");
-        ForeignStudent jackie = new ForeignStudent("China", "Jackie Chan");
 
-        george.AddLanguageSkill(new BadPunctuationSkill());
-        george.AddLanguageSkill(new BadSpeakingSkill());
+        // shows, how patterns.delegate pattern works
+        //(new DelegateDemonstrator()).run();
 
-        angela.AddLanguageSkill(new GreatPunctuationSkill());
-        angela.AddLanguageSkill(new BadSyntaxSkill());
-
-        jackie.AddLanguageSkill(new GoodPunctuationSkill());
-        jackie.AddLanguageSkill(new GreatSpeakingSkill());
-        jackie.AddLanguageSkill(new GreatSyntaxSkill());
-
-        george.GreetMessage();
-        george.ShowSkills();
-
-        angela.GreetMessage();
-        angela.ShowSkills();
-
-        jackie.GreetMessage();
-        jackie.ShowSkills();
+        // shows, how patterns.adapter pattern works
+        (new DecoratorDemonstrator()).run();
 
 
         System.out.println("end");

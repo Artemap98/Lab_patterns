@@ -1,16 +1,13 @@
 package interfaces;
 
+import java.util.Vector;
+
 public interface ITest {
 
-
-    void StartTest();
     int GetQuestionAmount();
     IQuestion GetQuestionById(int id);
-    void PutAnswer(IQuestion question, IAnswer answer);
-    void StopTest();
-
-    boolean IsTestInProgress();
-
-    IAnswer GetResult();
+    void AddQuestion(IQuestion question);
+    void AddSkillType(SkillType newSkillType);
+    Vector<SkillType> GetSkillTypes();
 
 }

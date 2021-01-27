@@ -2,7 +2,7 @@ package interfaces;
 
 public interface IResult {
 
-    boolean getGradeBool();
-    int getGrade();
+    boolean GetGradeBool(int threshold);
+    int GetGrade();
 
 }

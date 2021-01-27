@@ -1,11 +1,14 @@
 package core;
 
-import delegate.ILanguageSkill;
+import interfaces.IStudent;
+import interfaces.ILanguageSkill;
 import interfaces.ITest;
+import interfaces.SkillType;
+import patterns.delegate.EmptyLanguageSkill;
 
 import java.util.Vector;
 
-public class ForeignStudent{
+public class ForeignStudent implements IStudent {
 
     private Vector<ILanguageSkill> myLanguageSkills = new Vector<ILanguageSkill>();
     private String myCountry;
@@ -20,16 +23,34 @@ public class ForeignStudent{
         System.out.println("Hello! My name is " + myName + "! I'm from " + myCountry+".");
     }
 
+    @Override
     public String GetCountry() {
         return myCountry;
     }
 
+    @Override
     public String GetName() {
         return myName;
     }
 
+    @Override
     public void AddLanguageSkill(ILanguageSkill newSkill){
         myLanguageSkills.add(newSkill);
+    }
+
+    @Override
+    public ILanguageSkill GetLanguageSkill(SkillType type) {
+        ILanguageSkill resultSkill = null;
+        for (ILanguageSkill currSkill:
+             myLanguageSkills) {
+            if(currSkill.GetSkillType() == type){
+                resultSkill = currSkill;
+            }
+        }
+        if(resultSkill == null){
+            resultSkill = new EmptyLanguageSkill(type);
+        }
+        return resultSkill;
     }
 
     public void ShowSkills(){
@@ -41,6 +62,10 @@ public class ForeignStudent{
     }
 
     public void BeginTest(ITest test) {
+
+    }
+
+    public void EndTest(){
 
     }
 
