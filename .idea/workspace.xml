@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e75364-4728-4fa3-bb45-ca775b74f04b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/StandardAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/StandardQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/singleton/ExaminationSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IAnswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IQuestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/ITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/ITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/DecoratorDemonstrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/delegate/DelegateDemonstrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/LanguageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/LanguageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ICertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICertificate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/delegate/DelegateDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="72">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="219">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,12 +40,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/singleton/ExaminationSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="176">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,26 +114,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
@@ -185,6 +146,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -199,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/GoodSyntaxSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/GreatSyntaxSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/punctuationSkill/BadSpeakingSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/punctuationSkill/SpeakingSkill.java" />
@@ -248,8 +209,9 @@
         <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java" />
         <option value="$PROJECT_DIR$/src/core/ExaminationQuestions.java" />
         <option value="$PROJECT_DIR$/src/core/LanguageTest.java" />
-        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" />
         <option value="$PROJECT_DIR$/src/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/patterns/singleton/ExaminationSingleton.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" />
       </list>
     </option>
   </component>
@@ -291,12 +253,6 @@
               <item name="Paltusov_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paltusov_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,7 +260,14 @@
               <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="patternsdemonstrator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paltusov_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +279,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611824007566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611829356223" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -376,12 +339,12 @@
       <updated>1611648100967</updated>
       <workItem from="1611648105008" duration="10807000" />
       <workItem from="1611668732529" duration="2770000" />
-      <workItem from="1611671692812" duration="23268000" />
+      <workItem from="1611671692812" duration="25131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36845000" />
+    <option name="totallyTimeSpent" value="38708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -392,7 +355,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Duplicate detector" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.58756137" />
@@ -403,7 +366,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33060557" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.24713585" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.62356794" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -1080,16 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Examination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1103,20 +1056,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
+    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        <state relative-caret-position="72">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/singleton/single.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Examination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/singleton/ExaminationSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

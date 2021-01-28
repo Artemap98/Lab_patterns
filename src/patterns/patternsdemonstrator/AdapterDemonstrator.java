@@ -2,6 +2,7 @@ package patterns.patternsdemonstrator;
 
 import core.*;
 import interfaces.IAnswer;
+import interfaces.IExam;
 import interfaces.IQuestion;
 import interfaces.SkillType;
 import patterns.adapter.ISingleAnswerQuestion;
@@ -12,6 +13,7 @@ import patterns.decorator.RetakeExamination;
 import patterns.delegate.punctuationSkill.BadPunctuationSkill;
 import patterns.delegate.speakingSkill.GreatSpeakingSkill;
 import patterns.delegate.syntaxSkill.GoodSyntaxSkill;
+import patterns.singleton.ExaminationSingleton;
 
 public class AdapterDemonstrator {
 
@@ -69,7 +71,12 @@ public class AdapterDemonstrator {
 
         test.showQuestions();
 
-        Examination exam = new Examination();
+        // old Examination initialization method
+        //IExam exam = new Examination();
+
+        //ExaminationSingleton derived from Examination
+        IExam exam = ExaminationSingleton.getInstance();
+
         exam.DoExam(wonka, test);
         System.out.println('\n');
 
