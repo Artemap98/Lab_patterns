@@ -1,4 +1,4 @@
-package patterns.delegate;
+package patterns.patternsdemonstrator;
 
 import core.ForeignStudent;
 import patterns.delegate.punctuationSkill.BadPunctuationSkill;
@@ -11,11 +11,14 @@ import patterns.delegate.syntaxSkill.BadSyntaxSkill;
 import patterns.delegate.syntaxSkill.GreatSyntaxSkill;
 
 public class DelegateDemonstrator {
-    public void run(){
+    public void Run(){
+
+        //create some students
         ForeignStudent george = new ForeignStudent("USA", "George Bush");
         ForeignStudent angela = new ForeignStudent("Germany", "Angela Merkel");
         ForeignStudent jackie = new ForeignStudent("China", "Jackie Chan");
 
+        //add some skills
         george.AddLanguageSkill(new BadPunctuationSkill());
         george.AddLanguageSkill(new GoodSpeakingSkill());
         george.AddLanguageSkill(new BadSyntaxSkill());
@@ -28,6 +31,7 @@ public class DelegateDemonstrator {
         jackie.AddLanguageSkill(new GreatSpeakingSkill());
         jackie.AddLanguageSkill(new GreatSyntaxSkill());
 
+        //show student's skill
         george.GreetMessage();
         george.ShowSkills();
 

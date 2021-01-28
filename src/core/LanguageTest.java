@@ -12,10 +12,31 @@ public class LanguageTest implements ITest {
     protected Vector<IQuestion> questions = new Vector<IQuestion>();
     protected Vector<SkillType> skillTypes = new Vector<SkillType>();
 
+    public void showQuestions(){
+
+        int counter = 1;
+
+        for (IQuestion currQuestion :
+                questions) {
+            System.out.println("Question number " + (counter++) + ":");
+            System.out.println(currQuestion.GetText());
+            Vector<IAnswer> answers = currQuestion.GetAnswers();
+            for (IAnswer ans :
+                    answers) {
+                System.out.println("\t"+ans.getText());
+            }
+            System.out.println('\n');
+        }
+    }
 
     @Override
     public int GetQuestionAmount() {
         return questions.size();
+    }
+
+    @Override
+    public Vector<IQuestion> GetQuestions() {
+        return questions;
     }
 
     @Override

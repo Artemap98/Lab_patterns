@@ -1,6 +1,7 @@
 package interfaces;
 
 public interface IStudent {
+
     String GetCountry();
 
     String GetName();

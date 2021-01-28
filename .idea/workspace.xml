@@ -2,55 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e75364-4728-4fa3-bb45-ca775b74f04b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/Examination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/LanguageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/TestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/SkillType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/delegate/BaseSkill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/delegate/DelegateDemonstrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/delegate/EmptyLanguageSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/StandardAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/StandardQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/ForeignStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/ForeignStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/ILanguageSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/SkillPointGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/punctuationSkill/BadPunctuationSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/punctuationSkill/GoodPunctuationSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/punctuationSkill/GreatPunctuationSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/punctuationSkill/PunctuationSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/speakingSkill/BadSpeakingSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/speakingSkill/GoodSpeakingSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/speakingSkill/GreatSpeakingSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/speakingSkill/SpeakingSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/syntaxSkill/BadSyntaxSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/syntaxSkill/GoodSyntaxSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/syntaxSkill/GreatSyntaxSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/delegate/syntaxSkill/SyntaxSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IAnswer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IQuestion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/ITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/ITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/ForeignStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ForeignStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/DecoratorDemonstrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/delegate/DelegateDemonstrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/LanguageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/LanguageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/ILanguageSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/SkillPointGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/SkillPointGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/punctuationSkill/BadPunctuationSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/BadPunctuationSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/punctuationSkill/GoodPunctuationSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/GoodPunctuationSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/punctuationSkill/GreatPunctuationSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/GreatPunctuationSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/punctuationSkill/PunctuationSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/PunctuationSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/speakingSkill/BadSpeakingSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/speakingSkill/BadSpeakingSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/speakingSkill/GoodSpeakingSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/speakingSkill/GoodSpeakingSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/speakingSkill/GreatSpeakingSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/speakingSkill/GreatSpeakingSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/speakingSkill/SpeakingSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/speakingSkill/SpeakingSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/syntaxSkill/BadSyntaxSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/syntaxSkill/BadSyntaxSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/syntaxSkill/GoodSyntaxSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/syntaxSkill/GoodSyntaxSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/syntaxSkill/GreatSyntaxSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/syntaxSkill/GreatSyntaxSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegate/syntaxSkill/SyntaxSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/delegate/syntaxSkill/SyntaxSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ICertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICertificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/IResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/ITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/delegate/DelegateDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,20 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+            <state relative-caret-position="220">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,28 +51,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/IExam.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/IResult.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="571">
+              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/ICertificate.java">
+        <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="343">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#333#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Examination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="198">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,33 +102,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/ILanguageSkill.java">
+        <entry file="file://$PROJECT_DIR$/src/core/StandardAnswer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="308">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="167">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,13 +165,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/TestResult.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="241">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,8 +182,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Sequence" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -192,18 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Delegate/BadSyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/Delegate/GoodSyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/Delegate/GreatSyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/GreatSyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/speakingSkill/BadSyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/speakingSkill/SyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/speakingSkill/BadSpeakingSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/speakingSkill/GoodSpeakingSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/speakingSkill/GreatSpeakingSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/SyntaxSkill.java" />
-        <option value="$PROJECT_DIR$/src/delegate/SkillQualityEnum.java" />
-        <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/BadSyntaxSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/GoodSyntaxSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/syntaxSkill/GreatSyntaxSkill.java" />
         <option value="$PROJECT_DIR$/src/delegate/punctuationSkill/BadSpeakingSkill.java" />
@@ -214,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/DelegateUML.puml" />
         <option value="$PROJECT_DIR$/src/delegate/DelegateDemonstrator.java" />
         <option value="$PROJECT_DIR$/src/core/languagetest/AbstractLanguageTest.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IResult.java" />
         <option value="$PROJECT_DIR$/src/core/AbstractLanguageTest.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/SkillType.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/ILanguageSkill.java" />
@@ -226,23 +220,36 @@
         <option value="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/PunctuationSkill.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/DelegateDemonstrator.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/SkillPointGenerator.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IStudent.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/EmptyLanguageSkill.java" />
         <option value="$PROJECT_DIR$/src/core/ForeignStudent.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IExam.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ITest.java" />
-        <option value="$PROJECT_DIR$/src/core/LanguageTest.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/BadPunctuationSkill.java" />
         <option value="$PROJECT_DIR$/src/patterns/delegate/BaseSkill.java" />
         <option value="$PROJECT_DIR$/src/core/Examinator.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/AdapterDemonstrator.java" />
-        <option value="$PROJECT_DIR$/src/core/Main.java" />
         <option value="$PROJECT_DIR$/src/core/TestResult.java" />
         <option value="$PROJECT_DIR$/src/core/Examination.java" />
         <option value="$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java" />
         <option value="$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java" />
         <option value="$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/IAnswer.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/ICertificate.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/IExam.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/IResult.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/IStudent.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/ITest.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/IQuestion.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java" />
+        <option value="$PROJECT_DIR$/src/core/StandardQuestion.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java" />
+        <option value="$PROJECT_DIR$/src/core/StandardAnswer.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/core/ExaminationQuestions.java" />
+        <option value="$PROJECT_DIR$/src/core/LanguageTest.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/core/Main.java" />
       </list>
     </option>
   </component>
@@ -297,14 +304,7 @@
               <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paltusov_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +316,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611731674544" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611824007566" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -376,12 +376,12 @@
       <updated>1611648100967</updated>
       <workItem from="1611648105008" duration="10807000" />
       <workItem from="1611668732529" duration="2770000" />
-      <workItem from="1611671692812" duration="15218000" />
+      <workItem from="1611671692812" duration="23268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28795000" />
+    <option name="totallyTimeSpent" value="36845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -392,8 +392,9 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.58756137" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
@@ -402,8 +403,8 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.22094926" />
-      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.36006546" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33060557" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.62356794" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -426,13 +427,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/interfaces/ICountry.java" />
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/delegate/SkillQualityEnum.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/delegate/speakingSkill/GreatSpeakingSkill.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -837,27 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/DelegateDemonstrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/delegate/SkillPointGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -871,43 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#234#0" expanded="true" />
-            <element signature="e#322#333#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/delegate/EmptyLanguageSkill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/ForeignStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,59 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ICertificate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ILanguageSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/TestResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1011,9 +902,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ICertificate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ILanguageSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/IQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/ForeignStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/StandardQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/StandardAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DelegateDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/ExaminationQuestions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Examination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="198">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1021,10 +1090,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java">
+    <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+        <state relative-caret-position="343">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#333#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
