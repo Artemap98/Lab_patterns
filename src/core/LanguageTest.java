@@ -2,12 +2,12 @@ package core;
 
 import interfaces.IAnswer;
 import interfaces.IQuestion;
-import interfaces.ITest;
+import interfaces.ILanguageTest;
 import interfaces.SkillType;
 
 import java.util.Vector;
 
-public class LanguageTest implements ITest {
+public class LanguageTest implements ILanguageTest {
 
     protected Vector<IQuestion> questions = new Vector<IQuestion>();
     protected Vector<SkillType> skillTypes = new Vector<SkillType>();
@@ -25,7 +25,7 @@ public class LanguageTest implements ITest {
                     answers) {
                 System.out.println("\t"+ans.getText());
             }
-            System.out.println('\n');
+            System.out.println(' ');
         }
     }
 

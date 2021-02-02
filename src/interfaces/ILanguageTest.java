@@ -2,7 +2,7 @@ package interfaces;
 
 import java.util.Vector;
 
-public interface ITest {
+public interface ILanguageTest {
 
     int GetQuestionAmount();
     Vector<IQuestion> GetQuestions();

@@ -4,7 +4,7 @@ import core.TestResult;
 import interfaces.IExam;
 import interfaces.IResult;
 import interfaces.IStudent;
-import interfaces.ITest;
+import interfaces.ILanguageTest;
 
 public class RetakeExamination implements IExam {
 
@@ -15,7 +15,7 @@ public class RetakeExamination implements IExam {
     }
 
     @Override
-    public IResult DoExam(IStudent student, ITest test) {
+    public IResult DoExam(IStudent student, ILanguageTest test) {
 
         System.out.println(student.GetName() + " try to retake exam..");
 

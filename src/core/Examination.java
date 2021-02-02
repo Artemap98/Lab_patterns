@@ -7,7 +7,7 @@ import java.util.Vector;
 
 public class Examination implements IExam {
     @Override
-    public IResult DoExam(IStudent student, ITest test) {
+    public IResult DoExam(IStudent student, ILanguageTest test) {
 
         System.out.println("Student "+student.GetName()+" writing test...");
 

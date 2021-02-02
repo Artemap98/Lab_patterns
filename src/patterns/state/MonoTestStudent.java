@@ -1,25 +1,23 @@
-package core;
+package patterns.state;
 
-import interfaces.IStudent;
-import interfaces.ILanguageSkill;
-import interfaces.ILanguageTest;
-import interfaces.SkillType;
+import interfaces.*;
 import patterns.delegate.EmptyLanguageSkill;
-import patterns.observer.StudentNotificator;
 
 import java.util.Vector;
 
-public class ForeignStudent implements IStudent {
+public class MonoTestStudent implements IStudent {
 
     private Vector<ILanguageSkill> myLanguageSkills = new Vector<ILanguageSkill>();
     private String myCountry;
     private String myName;
-    private StudentNotificator notificator;
+    private IStudentState myState;
+    public ILanguageTest myTest;
+    public IExam myExam;
 
-    public ForeignStudent(String country, String name){
+    public MonoTestStudent(String country, String name){
+        myState = new StateReady();
         myCountry = country;
         myName = name;
-        notificator = new StudentNotificator();
     }
 
     public void GreetMessage(){
@@ -45,7 +43,7 @@ public class ForeignStudent implements IStudent {
     public ILanguageSkill GetLanguageSkill(SkillType type) {
         ILanguageSkill resultSkill = null;
         for (ILanguageSkill currSkill:
-             myLanguageSkills) {
+                myLanguageSkills) {
             if(currSkill.GetSkillType() == type){
                 resultSkill = currSkill;
             }
@@ -64,12 +62,15 @@ public class ForeignStudent implements IStudent {
         System.out.println("\n");
     }
 
-    public void BeginTest(ILanguageTest test) {
+    public void SetState(IStudentState state){
+        this.myState = state;
+    }
 
+    public void BeginTest(IExam exam, ILanguageTest test) {
+        myState.BeginTest(exam, test, this);
     }
 
     public void EndTest(){
-
+        myState.EndTest(this);
     }
-
 }

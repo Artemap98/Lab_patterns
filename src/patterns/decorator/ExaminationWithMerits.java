@@ -4,7 +4,7 @@ import core.TestResult;
 import interfaces.IExam;
 import interfaces.IResult;
 import interfaces.IStudent;
-import interfaces.ITest;
+import interfaces.ILanguageTest;
 
 public class ExaminationWithMerits implements IExam{
     private IExam originalExam;
@@ -16,7 +16,7 @@ public class ExaminationWithMerits implements IExam{
     }
 
     @Override
-    public IResult DoExam(IStudent student, ITest test) {
+    public IResult DoExam(IStudent student, ILanguageTest test) {
 
         IResult originalResult = originalExam.DoExam(student, test);
 
