@@ -2,41 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e75364-4728-4fa3-bb45-ca775b74f04b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/INotificationSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/StudentNotificator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/subscribers/EmailSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/subscribers/RatingSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/subscribers/SmsSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ObserverDemonstrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/StateDemonstrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/IStudentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/MonoTestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/StateBusy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/StateReady.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/BdAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/GradeAggregatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/IAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/bridge/WebServerAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/facade/ITestFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/facade/StudentTestingFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/BridgeDemonstrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/FacadeDemonstrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Examination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Examination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/ForeignStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/ForeignStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/LanguageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/core/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IExam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/IExam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/interfaces/ITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/ExaminationWithMerits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/ExaminationWithMerits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/RetakeExamination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/decorator/RetakeExamination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/patternsdemonstrator/AdapterDemonstrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/patternsdemonstrator/AdapterDemonstrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/patternsdemonstrator/DecoratorDemonstrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paltusov_patterns/patterns/patternsdemonstrator/DecoratorDemonstrator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Examination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Examination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/ForeignStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ForeignStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/LanguageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/LanguageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/IExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ILanguageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ILanguageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/objectpool/LanguageTestPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/objectpool/LanguageTestPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ObjectPoolDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ObjectPoolDemonstrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/PrototypeDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/PrototypeDemonstrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/SingletonDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/SingletonDemonstrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/prototype/ClonnableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/prototype/ClonnableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/chainresponsibility/IHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/chainresponsibility/IHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageEssay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageEssay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageTestResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageTestResponsibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ChainResponsibilityDemonstrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ChainResponsibilityDemonstrator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="132">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/ForeignStudent.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/BridgeDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +49,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/state/IStudentState.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/GradeAggregatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="307">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/BdAggregator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,42 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/state/MonoTestStudent.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/WebServerAggregator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1674#1675#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/state/StateReady.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/state/StateBusy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="264">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +91,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/StateDemonstrator.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/IAggregator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="132">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/facade/StudentTestingFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/FacadeDemonstrator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1233">
-              <caret line="76" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="80" selection-end-column="33" />
+            <state relative-caret-position="-133">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,27 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/chainresponsibility/IHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="29" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#268#279#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -198,22 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/delegate/BaseSkill.java" />
-        <option value="$PROJECT_DIR$/src/core/Examinator.java" />
-        <option value="$PROJECT_DIR$/src/patterns/adapter/AdapterDemonstrator.java" />
-        <option value="$PROJECT_DIR$/src/core/TestResult.java" />
-        <option value="$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java" />
-        <option value="$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java" />
-        <option value="$PROJECT_DIR$/src/patterns/decorator/DecoratorDemonstrator.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IAnswer.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ICertificate.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IExam.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ILanguageSkill.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IResult.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IStudent.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ITest.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/IQuestion.java" />
-        <option value="$PROJECT_DIR$/src/patterns/adapter/ISingleAnswerQuestion.java" />
         <option value="$PROJECT_DIR$/src/core/StandardQuestion.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/SingleQuestionAdapter.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/SingleAnswerQuestion.java" />
@@ -248,7 +205,23 @@
         <option value="$PROJECT_DIR$/src/patterns/state/StateBusy.java" />
         <option value="$PROJECT_DIR$/src/patterns/state/MonoTestStudent.java" />
         <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/StateDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/IQuestionHandler.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/ITestHandler.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/IHandler.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageEssay.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageResponsibility.java" />
+        <option value="$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageTestResponsibility.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/ChainResponsibilityDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/facade/ITestFacade.java" />
+        <option value="$PROJECT_DIR$/src/patterns/facade/StudentTestingFacade.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/FacadeDemonstrator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/GradeAgregator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/IAggregator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/WebServerAggregator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/BdAggregator.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/GradeAggregatorController.java" />
         <option value="$PROJECT_DIR$/src/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/patterns/patternsdemonstrator/BridgeDemonstrator.java" />
       </list>
     </option>
   </component>
@@ -303,14 +276,14 @@
               <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="patternsdemonstrator" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Paltusov_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paltusov_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="patternsdemonstrator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +295,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612266883049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612302798267" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -383,12 +356,12 @@
       <updated>1611648100967</updated>
       <workItem from="1611648105008" duration="10807000" />
       <workItem from="1611668732529" duration="2770000" />
-      <workItem from="1611671692812" duration="37381000" />
+      <workItem from="1611671692812" duration="44973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50958000" />
+    <option name="totallyTimeSpent" value="58550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -410,7 +383,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.38134205" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.23895253" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.30605564" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -433,118 +406,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/speakingSkill/SpeakingSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/PunctuationSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/SkillPointGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/syntaxSkill/SyntaxSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/EmptyLanguageSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/BaseSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/delegate/punctuationSkill/BadPunctuationSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/decorator/ExaminationWithMerits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/decorator/RetakeExamination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ICertificate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/IExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/ILanguageSkill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -887,26 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1233">
-          <caret line="76" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="80" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="29" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/state/MonoTestStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-858">
@@ -935,20 +776,172 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/LanguageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="110">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#279#0" expanded="true" />
             <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageEssay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/chainresponsibility/LanguageTestResponsibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#140#151#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/facade/ITestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/ChainResponsibilityDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/DecoratorDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/chainresponsibility/IHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/facade/StudentTestingFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/FacadeDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/WebServerAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/IAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/BdAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/GradeAggregatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/AdapterDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="132">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/patternsdemonstrator/BridgeDemonstrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

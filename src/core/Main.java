@@ -30,6 +30,18 @@ public class Main {
         // 8) shows, how state pattern works
         //(new StateDemonstrator()).Run();
 
+        // 9) shows, how chain of responsibility pattern works
+        //(new ChainResponsibilityDemonstrator()).Run();
+
+        // 10) shows, how  pattern works
+        //(new FacadeDemonstrator()).Run();
+
+        // 11) shows, how  pattern works
+        //(new BridgeDemonstrator()).Run();
+
+        // 12) shows, how  pattern works
+        //(new StateDemonstrator).Run();
+
 
 
 

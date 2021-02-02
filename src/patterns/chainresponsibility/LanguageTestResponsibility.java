@@ -1,15 +1,16 @@
 package patterns.chainresponsibility;
 
+import core.Examination;
 import interfaces.*;
 
 import java.util.Vector;
 
-public class LanguageResponsibility implements ILanguageTest, IHandler {
+public class LanguageTestResponsibility implements ILanguageTest, IHandler {
 
     protected Vector<IQuestion> questions = new Vector<IQuestion>();
     protected Vector<SkillType> skillTypes = new Vector<SkillType>();
     protected IHandler nextHandler;
-    protected IExam exam;
+    protected IExam exam = new Examination();
 
 
     public void SetExam(IExam exam){
