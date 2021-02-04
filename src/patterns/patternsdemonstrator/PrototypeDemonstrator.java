@@ -50,7 +50,7 @@ public class PrototypeDemonstrator {
         test.showQuestions();
         exam.DoExam(barack, test);
 
-        System.out.println("************************************");
+        System.out.println("################################");
 
         //run hard language test
         System.out.println("Hard test");

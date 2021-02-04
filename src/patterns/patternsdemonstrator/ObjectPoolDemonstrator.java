@@ -38,7 +38,7 @@ public class ObjectPoolDemonstrator {
         test.showQuestions();
         exam.DoExam(jerar, test);
 
-        System.out.println("************************************");
+        System.out.println("################################");
 
         //run hard language test
         System.out.println("Different test");
